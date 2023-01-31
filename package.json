@@ -11,5 +11,8 @@
     "url": "https://github.com/eldoy/payus"
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "stripe": "^11.8.0"
+  }
 }
