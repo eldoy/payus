@@ -1,1 +1,6 @@
-module.exports = function payus() {}
+const stripe = require('stripe')
+
+module.exports = function payus(config = {}) {
+  const api = stripe(config.secret_key)
+  return { api }
+}
